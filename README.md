@@ -1,11 +1,9 @@
 # Real Estate App - Infrastructure (Terraform)
 
-## Overview
-This repository contains the Terraform code for deploying the Real Estate App infrastructure on AWS. The infrastructure includes compute instances, networking, storage, and IAM roles, ensuring a secure and scalable deployment.
+**(This repo is a continuation of an ongoing [Real Estate Deployment Project](https://github.com/y7ksh-r/Real-Estate), Make sure you have completed Step 1 before proceeding further.)**
 
-## Architecture Diagram
-![Architecture](https://raw.githubusercontent.com/y7ksh-r/Real-estate-app-infra/main/docs/architecture.png)  
-*Infrastructure: AWS EC2 (for hosting), S3 (for storage), IAM (for access control), and Terraform for provisioning.*
+## Overview
+This repository contains the Terraform code for deploying the Real Estate App infrastructure on AWS, which can be found [here](https://github.com/y7ksh-r/Real-Estate) The infrastructure includes compute instances, networking, storage, and IAM roles, ensuring a secure and scalable deployment.
 
 ## Features
 - **State Locking with S3 & DynamoDB**: Prevents race conditions in Terraform deployments.
